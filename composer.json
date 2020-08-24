@@ -1,0 +1,34 @@
+{
+    "name": "funkeye/fancy-discussion-list",
+    "description": "just a desc",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14"
+    },
+    "authors": [
+        {
+            "name": "Funkeye",
+            "email": "funkeye@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Funkeye\\FancyDiscussionList\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Fancy DiscussionList",
+            "icon": {
+                "name": "fas fa-th-list",
+                "backgroundColor": "#1976d2",
+                "color": "#fff"
+            }
+        }
+    }
+}
